@@ -1,8 +1,14 @@
-<section>
-    @for (producto of datos; track producto.nombre) {
-      <app-producto-card 
-      [productoNombre] = producto.nombre  
-      [productoPrecio] = producto.precio  
-      [productoImg] = producto.url ></app-producto-card>
-    }
-</section>
+<div>
+  <header>
+    <h1>Mostrando</h1>
+    <h1 id="cantidad-resultados">{{datos.length}} resultados</h1>
+  </header>
+  <section>
+      @for (producto of datos; track producto.nombre) {
+        <app-producto-card 
+        [productoNombre] = producto.nombre  
+        [productoPrecio] = producto.precio  
+        [productoImg] = producto.url ></app-producto-card>
+      }
+  </section>
+</div>

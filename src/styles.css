@@ -1,35 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* en el link, nomas ve lo que esta despues de family =, y es asi como lo usaras en font-family, creo que seria 
-  font-family: "PT Sans",sans-serif      lo de sans,serif es nomas para tener una fuente de repuesto por si no carga PT Sans
-ooooo
-
-
-  a los h1,h2,h3h4,h5,h6 quitales el margen por defecto que tienen, tambien al html y body,
-
-
-solo son h1 -> si pero de una vez, para que ninguno tenga margen, son los que tienen margen por defecto, seleccionalos asi html,body,h1,h2 etc{}
-  ponles margin: 0
-  agrega tambien el html y body junto a los h  , el elemento html y body tambien tienen por defecto,
-  ahora se deberian de ver mas pequeños o mas juntos los elementos
-  estan bien pegados 
-
-  cuales¿
-  wpp
-
-
-
-  ah ya ,vamos al de headers
-
-*/
-
+:root{
+    --space-cadet: #25283dff;
+    --plum: #8f3985ff;
+    --african-violet: #a675a1ff;
+    --rosy-brown: #cea2acff;
+    --champagne-pink: #efd9ceff;
+    --rich-black: #0b2027ff;
+    --cerulean: #40798cff;
+    --verdigris: #70a9a1ff;
+    --ash-gray: #cfd7c7ff;
+    --cornsilk: #f6f1d1ff;
+}
 h1,h2,h3,h4,h5,h6, html,body{
     margin: 0;
 }
-
 html{
     width: 100%;
     height: 100%;
-    font-family: "Gravitas One";
-    background-color: beige;
+    background-color: var(--african-violet);
+    font-family: "PT Sans",sans-serif;  
 }

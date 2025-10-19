@@ -1,29 +1,30 @@
 .cont{
-    /* esto hace q css calcule los nuevos tamaños, para que no exista un sobreflujo */
+    color: white;
     box-sizing: border-box; 
     padding: 10px;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
     border-bottom: 2px double plum;
     align-items: center;
     width: 100%;
     display: inline-flex;
     justify-content: space-between; /* separa título y menú */
-}
+} 
 nav{
     display:inline-flex;
     gap: 50px;
 }
-
-/* a{
-    text-decoration:none; esto va quitar las lineas de abajo
-    amos al de product-card.css
-}
-*/ 
-a:visited{
-    color: chocolate
-    
-}
 a{
-    text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.141);
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  transition: border-color 1s;
+  }
+a:visited{
+    color: black
 }
-
+a:hover{
+  border-color: white;
+}
 

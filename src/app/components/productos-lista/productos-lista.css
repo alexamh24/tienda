@@ -3,4 +3,16 @@ section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
+    margin-bottom: 50px;
+}
+
+
+header{
+    font-weight: 1000;
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#cantidad-resultados{
+  color: rgb(94, 94, 94);
 }
