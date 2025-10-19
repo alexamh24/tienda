@@ -1,3 +1,6 @@
+:root{
+  --rosy-brown: #cea2acff;
+}
 @keyframes appear {
   0%{
     opacity: 0;
