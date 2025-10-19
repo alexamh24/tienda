@@ -1,0 +1,48 @@
+:root{
+    --space-cadet: #25283dff;
+    --plum: #8f3985ff;
+    --african-violet: #a675a1ff;
+    --rosy-brown: #cea2acff;
+    --champagne-pink: #efd9ceff;
+    --rich-black: #0b2027ff;
+    --cerulean: #40798cff;
+    --verdigris: #70a9a1ff;
+    --ash-gray: #cfd7c7ff;
+    --cornsilk: #f6f1d1ff;
+    --snow: #fdf7faff;
+    --cambridge-blue: #9ec5abff;
+}
+
+.h{
+    margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 900px;
+  background: (--champagne-pink);
+}
+
+section {
+  background-color: var(--ash-gray);
+  box-shadow: 0 8px 25px var(--african-violet);
+  padding: 40px 60px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+header h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+header h2{
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+header h3{
+    font-weight: 400;
+    margin: 6px 0;
+}

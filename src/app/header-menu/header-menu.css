@@ -1,10 +1,16 @@
+:root{
+  --space-cadet: #25283dff;
+}
+h1{
+  color: var(--space-cadet);
+}
 .cont{
     color: white;
     box-sizing: border-box; 
     padding: 10px;
     padding-inline-start: 40px;
     padding-inline-end: 40px;
-    border-bottom: 2px double plum;
+    border-bottom: 3px double plum;
     align-items: center;
     width: 100%;
     display: inline-flex;
@@ -15,7 +21,7 @@ nav{
     gap: 50px;
 }
 a{
-  border: 1px solid rgba(0, 0, 0, 0.141);
+  border: 2px solid plum;
   border-radius: 5px;
   padding: 5px 20px 5px 20px;
   text-decoration: none;
