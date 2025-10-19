@@ -13,27 +13,27 @@ export class Db{
         },
         {
             nombre : "Crisantemo",
-            precio : 600,
+            precio : 60,
             url : "crisantemo.jpg"
         },
         {
             nombre : "Tulipan",
-            precio : 600,
+            precio : 100,
             url : "TulipanTriunfo.jpg"
         },
         {
             nombre : "Orquídea",
-            precio : 600,
+            precio : 250,
             url : "orquidea.jpg"
         },
         {
             nombre : "Gerbera",
-            precio : 600,
+            precio : 100,
             url : "gerberas.jpg"
         },
         {
             nombre : "Girasol",
-            precio : 600,
+            precio : 260,
             url : "girasoles.jpg"
         },
         {
@@ -43,12 +43,12 @@ export class Db{
         },
         {
             nombre : "Impatiens",
-            precio : 600,
+            precio : 200,
             url : "impatiens.jpg"
         },
         {
             nombre : "NocheBuena",
-            precio : 600,
+            precio : 250,
             url : "nochebuena.jpg"
         }
 
