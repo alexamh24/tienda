@@ -1,0 +1,8 @@
+<section>
+    @for (producto of datos; track producto.nombre) {
+      <app-producto-card 
+      [productoNombre] = producto.nombre  
+      [productoPrecio] = producto.precio  
+      [productoImg] = producto.url ></app-producto-card>
+    }
+</section>

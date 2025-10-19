@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Gravitas+One&family=Ribeye&family=Roboto+Slab:wght@100..900&display=swap');
+:root{
+    --space-cadet: #25283dff;
+    --plum: #8f3985ff;
+    --african-violet: #a675a1ff;
+    --rosy-brown: #cea2acff;
+    --champagne-pink: #efd9ceff;
+    --rich-black: #0b2027ff;
+    --cerulean: #40798cff;
+    --verdigris: #70a9a1ff;
+    --ash-gray: #cfd7c7ff;
+    --cornsilk: #f6f1d1ff;
+}
+.product-card {
+  background-color: #efd9ceff;
+  border-radius: 24px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+ 
+}
+/* Imagen producto */
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /*no deforma*/
+  border-radius: 24px;
+}
+/* Nombre */
+.product-card h3 {
+  font-size: 30px;
+  font-family: "Gravitas One";
+  color: #0b2027ff;
+  margin: 8px 0 4px;
+  letter-spacing: 0.5px;
+}
+/* Precio*/
+.product-card h4 {
+  font-size:15px;
+  font-family: "Ribeye";
+  color: #8f3985ff;
+  font-weight: bold;
+}
+.product-card::hover{
+  transform: scale(50)
+}
+
+/* ahora en el product-card, la principal ponle transition
+YA LO TIEN 
+ya le qutiaste el deste? la cosa ngera NO, NO M ACUERDO COMO ME DIJO Lal?
+
+
+  mañana tons¿
+  ps esq ya nomas serian estilos pero seria como a ti te guste
+  osea lo importante ya esta por asi decirlo
+  nomas agrega lo de acerca de nosotros
+  y lo de inicio, busca ideas aqui (wpp)
+YA ME FASTIDIE W, Q SIGUE, NO AHORITA Q MAS HAGO
+*/
