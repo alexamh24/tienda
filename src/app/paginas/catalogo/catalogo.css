@@ -1,35 +1,3 @@
-/* aqui puedes usar el selector main si quieres,
-pq alfinal solo es un elemento , no hay mas main
-o si quieres le puedes poner una clase o id
-lo que tu quieras
-
-pero si quieres seleccionalo con main{
-}
-aja,
-y haz q ocupe todo lo alto y lo ancho
-height y width
-ahora, queremos que el contenido se muestre de arriba hacia abajo
-ponle un display: flex;
-y despues un flex-direction: column;
-luego un align-items center
-esto te lo acomoda? al centro? vertical o horizontal, no me acuerdo¿
-si, esta pos
-
-si quieres
-al main le puedes poner un margin topp, para que este un poco separado del header
-asi??
-no
-margin-top: 500px 
-
-ira si quieres al producto-card,
-en width ponle width : fit-content, pq vi que el texto se desborda
-esto hara que el width sea lo ancho necesario para el contenido
-ya, si cambio? wpp
-
-ingatu
-tons  amos al de producto
-
-*/
 main{
     width: 100%;
     height: 100%;

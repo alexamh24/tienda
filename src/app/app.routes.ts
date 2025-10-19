@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { Inicio } from './paginas/inicio/inicio';
-import { Catalogo } from './paginas/catalogo/catalogo';
 import { Acerca } from './paginas/acerca/acerca';
+import { Catalogo } from './paginas/catalogo/catalogo';
+import { Inicio } from './paginas/inicio/inicio';
 
 export const routes: Routes = [
     {
-        path : " ",
+        path : "",
         component : Inicio
     },
     {
