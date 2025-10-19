@@ -7,9 +7,9 @@ export interface producto{
 export class Db{
     private producto : producto[] = [
         {
-            nombre : "Asiatic lilies",
+            nombre : "Asiatic Lilies",
             precio : 500,
-            url : "Asiatic_lilies.jpg"
+            url : "AsiaticLilyOrange.jpg"
         },
         {
             nombre : "Crisantemo",
@@ -17,39 +17,39 @@ export class Db{
             url : "crisantemo.jpg"
         },
         {
-            nombre : "3",
+            nombre : "Tulipan",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "TulipanTriunfo.jpg"
         },
         {
-            nombre : "4",
+            nombre : "Orquídea",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "orquidea.jpg"
         },
         {
-            nombre : "5",
+            nombre : "Gerbera",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "gerberas.jpg"
         },
         {
-            nombre : "6",
+            nombre : "Girasol",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "girasoles.jpg"
         },
         {
-            nombre : "7",
+            nombre : "Astromelias",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "astromelias.jpg"
         },
         {
-            nombre : "8",
+            nombre : "Impatiens",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "impatiens.jpg"
         },
         {
-            nombre : "9",
+            nombre : "NocheBuena",
             precio : 600,
-            url : "crisantemo.jpg"
+            url : "nochebuena.jpg"
         }
 
     ]
