@@ -28,7 +28,7 @@ a{
   transition: border-color 1s;
   }
 a:visited{
-    color: black
+    color: black;
 }
 a:hover{
   border-color: white;

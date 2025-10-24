@@ -1,0 +1,65 @@
+<div class="panel-usuarios">
+  <h2 class="titulo-panel">🌱 A D M I N I S T R A C I Ó N <br>
+     D E <br>
+     U S U A R I O S 🌱</h2>
+
+  <!-- Formulario -->
+  <form class="bloque-formulario" [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <div class="campo-input">
+      <label><strong><em>NOMBRE:</em></strong></label>
+      <input type="text" formControlName="nombre" />
+      <div *ngIf="userForm.get('nombre')?.invalid && userForm.get('nombre')?.touched">
+        <small *ngIf="userForm.get('nombre')?.errors?.['required']">Campo obligatorio</small>
+        <small *ngIf="userForm.get('nombre')?.errors?.['minlength']">Mínimo 3 caracteres</small>
+      </div>
+    </div>
+
+    <div class="campo-input">
+      <label><strong><em>CORREO:</em></strong></label>
+      <input type="email" formControlName="email" />
+      <div *ngIf="userForm.get('email')?.invalid && userForm.get('email')?.touched">
+        <small *ngIf="userForm.get('email')?.errors?.['required']">El email es obligatorio</small>
+        <small *ngIf="userForm.get('email')?.errors?.['email']">Formato inválido</small>
+      </div>
+    </div>
+
+    <div class="grupo-btns">
+      <button type="submit" class="btn act" [disabled]="userForm.invalid">
+        {{ isEditing ? 'ACTUALIZAR' : 'Crear' }}
+      </button>
+      <button 
+        type="button" 
+        class="btn cancel" 
+        (click)="cancelEdit()" 
+        *ngIf="isEditing">
+        CANCELAR
+      </button>
+    </div>
+  </form>
+
+  <h3 class="sub">🎀 R E G I S T R O S 🎀</h3>
+
+  <div class="contenedor-tabla">
+    <table class="tabla-usuarios">
+      <thead>
+        <tr>
+          <th>I D</th>
+          <th>N O M B R E</th>
+          <th>C O R R E O</th>
+          <th>O P C I O N E S</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td><strong>{{user.id}}</strong></td>
+          <td><strong>{{user.nombre}}</strong></td>
+          <td><strong>{{user.email}}</strong></td>
+          <td class="celda-acciones">
+            <button class="btn edit" (click)="editUser(user)">EDITAR</button>
+            <button class="btn delete" (click)="deleteUser(user.id)">BORRAR</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
